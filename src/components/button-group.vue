@@ -43,5 +43,4 @@ export default {
 </script>
 
 <style  scoped>
-/* @import url("../css/bootstrap.min.css"); */
 </style>

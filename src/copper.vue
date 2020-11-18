@@ -128,7 +128,6 @@
 <script>
 import "cropperjs/dist/cropper.css";
 import "./css/base.css";
-import "./css/font-awesome.min.css";
 import Cropper from "cropperjs";
 import ButtonGroup from "./components/button-group.vue";
 import SvgIcon from "./components/svg-icon.vue";
