@@ -30,6 +30,7 @@ export default {
   },
   methods: {
     confirm(url) {
+      //this is the image after copper
       this.imgsrc = url;
     },
     readFile(fileObj) {
