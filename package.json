@@ -1,0 +1,46 @@
+{
+  "name": "vue-cropperjs-ex",
+  "version": "1.0.3",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --progress --config ./config/webpack.prod.js",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --config ./config/webpack.dev.js",
+    "demo": "webpack-dev-server --open --config ./config/webpack.demo.js",
+    "server": "node server.js",
+    "dev": "webpack-dashboard -- node server.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "style-loader": "^0.23.1",
+    "svg-sprite-loader": "^5.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dashboard": "^3.0.6",
+    "webpack-dev-middleware": "^3.6.2",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-jarvis": "^0.3.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "cropper": "^4.1.0",
+    "lodash": "^4.17.11",
+    "vue": "^2.6.10"
+  }
+}
