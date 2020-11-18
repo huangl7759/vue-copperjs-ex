@@ -1,5 +1,7 @@
 # vue-copperjs-ex
 
+![vue-copperjs-ex screencast](./screenshoot.png "vue-copperjs-ex")
+
 ## Usage
 
 ### Install

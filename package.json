@@ -2,7 +2,6 @@
   "name": "vue-cropperjs-ex",
   "version": "1.0.5",
   "description": "",
-  "keywords": [],
   "author": "",
   "license": "MIT",
   "main": "src/index.js",
@@ -18,6 +17,13 @@
     "type": "git",
     "url": "https://github.com/huangl7759/vue-copperjs-ex.git"
   },
+  "keywords": [
+    "vue",
+    "copper",
+    "image copper",
+    "cropperjs",
+    "vue-cropperjs"
+  ],
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
