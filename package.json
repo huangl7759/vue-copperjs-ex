@@ -1,10 +1,10 @@
 {
   "name": "vue-cropperjs-ex",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --progress --config ./config/webpack.prod.js",
@@ -13,6 +13,10 @@
     "demo": "webpack-dev-server --open --config ./config/webpack.demo.js",
     "server": "node server.js",
     "dev": "webpack-dashboard -- node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangl7759/vue-copperjs-ex.git"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
