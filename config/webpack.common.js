@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "../dist"),
     // filename: "[name]/js/[name].[chunkhash].js",
     filename: "vue-cropper.common.js",
-    publicPath: "/"
+    publicPath: ""
   },
   module: {
     rules: [

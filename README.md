@@ -9,10 +9,10 @@
 ```bash
 npm install vue-copperjs-ex --save
 ```
-
 ### ES6
 ```javascript
 import MCopper from "vue-cropperjs-ex";
+import "vue-cropperjs-ex/css/cropper.min.css"
 export default {
   data() {
     return {
@@ -60,14 +60,6 @@ export default {
 | confirm | trigger when the click the confirm button |
 
 ## Contribution
-First, install dependencies
-```
-npm install
-```
-Second, setup development environment
-```
-npm run demo
-```
 
 ## License
 

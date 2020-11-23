@@ -1,14 +1,14 @@
 <template>
   <div>
-    <m-copper :src="src" style="width: 960px" @confirm="confirm"></m-copper>
+    <copper :src="src" style="width: 960px" @confirm="confirm"></copper>
     <input type="file" ref="file" />
     <img :src="imgsrc" />
   </div>
 </template>
 
 <script>
-// import MCopper from "../src/copper";
-import MCopper from "../src/index";
+import "../dist/css/cropper.min.css";
+import { Copper } from "../dist/vue-cropper.common";
 export default {
   data() {
     return {
@@ -44,7 +44,7 @@ export default {
     },
   },
   components: {
-    MCopper,
+    Copper,
   },
 };
 </script>

@@ -132,6 +132,7 @@ import Cropper from "cropperjs";
 import ButtonGroup from "./components/button-group.vue";
 import SvgIcon from "./components/svg-icon.vue";
 export default {
+  name: "copper",
   data() {
     return {
       cropper: null,
@@ -187,6 +188,7 @@ export default {
         $this.cropper = this.cropper;
       },
     });
+    console.log(112, cropper);
   },
   methods: {
     confirm() {

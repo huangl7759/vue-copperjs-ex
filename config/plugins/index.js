@@ -8,9 +8,9 @@ const VueLoaderPlugin = require("vue-loader/lib/plugin");
 var DashboardPlugin = require("webpack-dashboard/plugin");
 
 const MiniCssExtract = env => {
-  const prefix = "[name]/css/",
+  const prefix = "css/",
     settings = {
-      filename: prefix + "[name].[hash].css",
+      filename: prefix + "cropper.min.css",
       chunkFilename: prefix + "[id].[hash].css"
     };
 
