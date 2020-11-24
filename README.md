@@ -1,5 +1,9 @@
 # vue-copperjs-ex
 
+## Desc
+
+a vue copper component based on cropperjs
+
 ![vue-copperjs-ex screencast](./screenshoot.png "vue-copperjs-ex")
 
 ## Usage
@@ -11,8 +15,9 @@ npm install vue-copperjs-ex --save
 ```
 ### ES6
 ```javascript
-import MCopper from "vue-cropperjs-ex";
-import "vue-cropperjs-ex/css/cropper.min.css"
+import { Copper } from "../dist/vue-cropper.common";
+
+import "vue-cropperjs-ex/dist/css/cropper.min.css"
 export default {
   data() {
     return {
@@ -48,7 +53,7 @@ export default {
     },
   },
   components: {
-    MCopper,
+    Copper,
   },
 };
 ```
